@@ -57,7 +57,6 @@ public class SendPrint {
         for(int j = 0; j<savedSize; j++)
         {
             x = temp2.remove();
-            maxHead(q);
             if (x.priority != max)
             {
                 temp2.add(q.remove());
